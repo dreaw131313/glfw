@@ -298,14 +298,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\TRY_Engine\dev\Try\Libraries\GLFW\src\win32_window.c" />
     <ClCompile Include="D:\TRY_Engine\dev\Try\Libraries\GLFW\src\wgl_context.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="D:\TRY_Engine\dev\Try\Libraries\GLFW\ZERO_CHECK.vcxproj">
-      <Project>{99AA4789-3903-31A0-9B09-20F0D1F71CE5}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
